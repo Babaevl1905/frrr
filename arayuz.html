@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Erbay IPTV | Ana Sayfa</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="overlay"></div>
+
+  <header>
+    <h1 class="logo">ERBAY <span>IPTV</span></h1>
+
+    <!-- Üç Nokta Menü -->
+    <div class="menu-icon" onclick="toggleMenu()">⋮</div>
+
+    <!-- Açılan Menü -->
+    <div id="menu" class="dropdown">
+      <a href="https://wa.me/32485673127" target="_blank">📞 İletişim</a>
+      <a href="mailto:erbayiptv@gmail.com?subject=Reklam%20ve%20İş%20Birliği&body=Merhaba%2C%20Erbay%20IPTV%20üzerinden%20reklam%20ve%20iş%20birliği%20hakkında%20iletişime%20geçmek%20istiyorum.">💼 Reklam & İş Birliği</a>
+      <a href="gizli/gizli.html">🕵️ Gizli Giriş</a>
+    </div>
+  </header>
+
+  <main class="menu">
+    <button class="menu-btn" onclick="goPage('iptv/index.html')">📺 Canlı TV</button>
+    <button class="menu-btn" onclick="goPage('film.html')">🎬 Filmler</button>
+    <button class="menu-btn" onclick="goPage('dizi.html')">📺 Diziler</button>
+  </main>
+
+  <footer>
+    <p>© 2025 Erbay IPTV — Bayram tarafindan tasarlanmiştir</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
